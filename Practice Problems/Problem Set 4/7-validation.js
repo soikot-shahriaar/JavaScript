@@ -1,42 +1,42 @@
 function findVowel(s) {
-    if (typeof s !== "string") {
-      return "please provide me a string";
-    }
-  
-    let vowel = 0;
-    let consonant = 0;
-    let space = 0;
-    let vowelArray = [];
-  
-    for (let i = 0; i < s.length; i++) {
-      // a e i o u
-      let char = s[i].toLowerCase();
-  
-      if (
-        char === "a" ||
-        char === "e" ||
-        char === "i" ||
-        char === "o" ||
-        char === "u"
-      ) {
-        vowel++;
-        vowelArray.push(char);
-      } else if (char !== " ") {
-        consonant++;
-      } else {
-        space++;
-      }
-    }
-  
-    const obj = {
-      vowelCount: vowel,
-      consonantCount: consonant,
-      spaceCount: space,
-      vowelArray: vowelArray,
-    };
-  
-    return obj;
+  if (typeof s !== "string") {
+    return "please provide me a string";
   }
-  
-  const sentence = "the Name Of Our country is bangladesh";
-  console.log(findVowel(sentence));
+
+  let vowel = 0;
+  let consonant = 0;
+  let space = 0;
+  let vowelArray = [];
+
+  for (let i = 0; i < s.length; i++) {
+    // a e i o u
+    let char = s[i].toLowerCase();
+
+    if (
+      char === "a" ||
+      char === "e" ||
+      char === "i" ||
+      char === "o" ||
+      char === "u"
+    ) {
+      vowel++;
+      vowelArray.push(char);
+    } else if (char !== " ") {
+      consonant++;
+    } else {
+      space++;
+    }
+  }
+
+  const obj = {
+    vowelCount: vowel,
+    consonantCount: consonant,
+    spaceCount: space,
+    vowelArray: vowelArray,
+  };
+
+  return obj;
+}
+
+const sentence = "the Name Of Our country is bangladesh";
+console.log(findVowel(sentence));

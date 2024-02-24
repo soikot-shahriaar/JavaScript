@@ -9,4 +9,4 @@ function findSum(arr) {
   return sum;
 }
 // console.log(findSum(5));
-console.log(findSum([1, 2, 3, 4, 5])); 
+console.log(findSum([1, 2, 3, 4, 5]));

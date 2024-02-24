@@ -6,5 +6,4 @@ console.log(lyrics.split(""));
 console.log(lyrics.split("."));
 
 //slice
-console.log(lyrics.slice(5,9));
-
+console.log(lyrics.slice(5, 9));

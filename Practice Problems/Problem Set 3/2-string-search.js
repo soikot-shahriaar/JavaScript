@@ -1,4 +1,4 @@
-const lyrics ="Amar Sonar Bangla, Ami Tomay Valobashi"
+const lyrics = "Amar Sonar Bangla, Ami Tomay Valobashi";
 
 // search something in a string
 const searchString = "sOnAr";
@@ -13,4 +13,3 @@ console.log(lyrics.startsWith("Amar"));
 
 // endsWith
 console.log(lyrics.endsWith("Tomay"));
-

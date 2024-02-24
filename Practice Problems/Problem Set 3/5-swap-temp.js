@@ -9,5 +9,5 @@ second = temp;
 console.log(first, second);
 
 // swap variable without temp
-[first,second]=[second,first];
+[first, second] = [second, first];
 console.log(first, second);
