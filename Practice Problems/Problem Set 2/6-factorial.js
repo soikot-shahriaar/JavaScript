@@ -19,6 +19,7 @@ function multiOfNumbers(number) {
   }
   return multi;
 }
+
 const myNumber = 7;
 const result = multiOfNumbers(myNumber);
 console.log(result);

@@ -1,5 +1,5 @@
 // Find the Remainder
-var number = 199;
-var devider = 5;
-var remainder = number % devider;
+let number = 199;
+let devider = 5;
+let remainder = number % devider;
 console.log(remainder);

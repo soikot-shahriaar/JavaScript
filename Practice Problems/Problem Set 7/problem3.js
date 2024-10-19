@@ -29,9 +29,11 @@ function printDetails(person) {
     );
   }
 }
+
 const obj = {
   name: "mehedy",
   age: 26,
   email: "abc@gmail.com",
 };
+
 console.log(printDetails(obj));

@@ -17,4 +17,5 @@ function sumOfN(n) {
     return n + sumOfN(n - 1);
   }
 }
+
 console.log(sumOfN(3));

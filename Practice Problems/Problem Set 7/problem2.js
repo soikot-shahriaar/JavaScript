@@ -37,4 +37,5 @@ function gemsToDiamond(x, y, z) {
     }
   }
 }
+
 console.log(gemsToDiamond(100, 5, 1));

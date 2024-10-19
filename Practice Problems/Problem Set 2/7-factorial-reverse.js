@@ -6,6 +6,7 @@ function factorialReverse(number) {
   }
   return result;
 }
+
 const myNumber = 7;
 const fact = factorialReverse(myNumber);
 console.log("Factorial of", myNumber, "is", fact);

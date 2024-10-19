@@ -1,4 +1,5 @@
 // function to find a leap year
+
 function isLeapYear(year) {
   const remainder1 = year % 4;
   const remainder2 = year % 100;

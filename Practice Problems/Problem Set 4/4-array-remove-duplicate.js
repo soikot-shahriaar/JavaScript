@@ -21,4 +21,5 @@ function removeDuplicate(names) {
   }
   return unique;
 }
+
 console.log(removeDuplicate(names));

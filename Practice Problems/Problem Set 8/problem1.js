@@ -17,6 +17,7 @@ function isValidPhotoName(photoName, imageExtensions) {
     return false;
   }
 }
+
 // const photo = "image.jpg";
 const photo = "image.html";
 const extensions = [".jpg", ".JPEG", ".png", ".gif", ".ico"];

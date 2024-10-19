@@ -13,6 +13,7 @@ function getOddNumbersOfArray(numbers) {
   }
   return oddNumbers;
 }
+
 // function to get sum of odd numbers
 function getSumOfArray(numbers) {
   let sum = 0;
@@ -25,6 +26,7 @@ function getSumOfArray(numbers) {
   }
   return sum;
 }
+
 const myNumbers = [12, 65, 45, 78, 32, 45, 91];
 const oddNumbers = getOddNumbersOfArray(myNumbers);
 console.log("Odd Numbers:", oddNumbers);

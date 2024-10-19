@@ -1,9 +1,9 @@
 // Given Numbers are 13,79,45
 
-var num1 = 1231;
-var num2 = 90;
-var num3 = 421;
-var max = num1;
+let num1 = 1231;
+let num2 = 90;
+let num3 = 421;
+let max = num1;
 
 if (num2 > max) {
   max = num2;

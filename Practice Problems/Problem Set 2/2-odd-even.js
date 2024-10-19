@@ -17,6 +17,7 @@ function isEven(number) {
     return false;
   }
 }
+
 const number1 = isEven(12);
 console.log(number1);
 const number2 = isEven(133);
